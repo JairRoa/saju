@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #9a999e; /* Color del navbar */
+    background-color: #03a7b0; /* Color del navbar */
     padding: 10px 20px;
     position: relative;
   }
@@ -54,27 +54,30 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto */
   }
   
-  /* Sombra en el logo de texto (si tu logo es un texto en <a>) */
+  /* Sombra en el logo de texto (si tu logo es un texto en <a>)
   .navbar .logo a {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
     /* Asegúrate de que sea un texto, no una imagen */
-    /* font-size, color, etc. según tu preferencia */
+    /* font-size, color, etc. según tu preferencia 
   }
+    */
   
-  /* Sombra en el logo si es una imagen */
+  /* Sombra en el logo si es una imagen
   .navbar .logo img {
-    /* Usa un drop-shadow (similar a box-shadow, pero para imágenes) */
+  Usa un drop-shadow (similar a box-shadow, pero para imágenes)
     filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
     
-    /* Alternativa con box-shadow (se aplicaría al contenedor del img):
+  Alternativa con box-shadow (se aplicaría al contenedor del img):
        box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-     */
+    
   }
+
+   */
   
   
   
   .nav-links li a:hover {
-    background-color: #ce7036; /* Color institucional para botones */
+    background-color: #1f1b18; /* Color institucional para botones */
     color: #fff;
     border-radius: 4px;
   }
@@ -99,7 +102,7 @@
   width: 100%;
   /* Usamos min-height en lugar de height fija */
   min-height: 60vh;
-  background: url('/img/obras/ingenieria-electrica-011.jpg') center/cover no-repeat;
+  background: url('/img/obras/ingenieria-electrica-002.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +129,7 @@
 .hero-logo {
   display: block;
   margin: 0 auto 20px auto; /* Centrado y espacio inferior para separar del título */
-  max-width: 200px;
+  max-width: 400px;
   width: 100%;
   height: auto;
 }
@@ -195,9 +198,9 @@
   
   .arrow {
     position: absolute;  
-    bottom: 10px;        /* Ubica las flechas 10px desde la parte inferior */
+    bottom: 100px;        /* Ubica las flechas 10px desde la parte inferior */
     transform: none;     /* Quita el translateY(-50%) */
-    background-color: #ce7036;
+    background-color: #03a7b0;
     color: #fff;
     border: none;
     font-size: 1.5rem;
@@ -249,80 +252,13 @@
 }
 
 
-  /* ============================
-     video
-     ============================ */
-     .video-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #011627;
-        padding: 40px 20px;
-      }
-      
-      .video-section h2 {
-        font-size: 2rem;
-        color: #fff;
-        margin-bottom: 20px;
-        text-align: center;
-      }
-      
-      .video-container {
-        position: relative;
-        width: 70%;
-        max-width: 800px;
-        margin: 0 auto;
-        /* Por defecto, 16:9 */
-        padding-bottom: 56.25%; 
-        height: 0;
-        overflow: hidden;
-      }
-      
-      /* El iframe normalmente ocuparía 100% del contenedor */
-      .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-      
-      /* Pie de video */
-      .video-caption {
-        font-size: 1rem;
-        color: #fff;
-        text-align: center;
-        margin-top: 10px;
-      }
-      
-      /* 
-         Efecto “cropping” (zoom) para ocultar las barras negras:
-         Ajusta 'height' y 'width' por encima de 100% y
-         mueve 'top' (y/o 'left') para recortar la parte no deseada.
-      */
-      .video-container.cropped iframe {
-        width: 120%;    /* Ampliamos un 20% */
-        height: 120%;   /* para “recortar” la imagen */
-        top: -10%;      /* Subimos el iframe un poco */
-        left: -10%;     /* y a la izquierda para centrar el recorte */
-      }
-      
-      /* Responsivo */
-      @media (max-width: 600px) {
-        .video-section h2 {
-          font-size: 1.5rem;
-        }
-        .video-container {
-          width: 90%;
-        }
-      }
       
   /* ============================
      Footer
      ============================ */
 /* Fondo azul para todo el footer */
 footer {
-    background-color: #014f6f; /* Ajusta el color a tu preferencia */
+    background-color: #03a7b0; /* Ajusta el color a tu preferencia */
     padding: 40px 20px;
   }
   
@@ -359,7 +295,7 @@ footer {
   }
   
   .footer-box.right-box .footer-icons a:hover {
-    color: #ffdd90;
+    color: #9fa0a2;
   }
   
   .footer-box.right-box .contact-data p {
@@ -370,7 +306,7 @@ footer {
   
   .footer-box.right-box .contact-data i {
     margin-right: 8px;
-    color: #ffdd90; /* Ícono en color diferente */
+    color: #fff; /* Ícono en color diferente */
   }
   
   /* Ajustes en pantallas pequeñas */

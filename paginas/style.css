@@ -62,7 +62,7 @@ html, body {
   justify-content: center;
   padding: 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #ce7036;
+  border-bottom: 2px solid #03a7b0;
 }
 
 .tab-menu li {
@@ -70,15 +70,15 @@ html, body {
   cursor: pointer;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #282828;
+  color: #1f1b18;
   border: 2px solid transparent;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .tab-menu li.active {
-  background-color: #ce7036;
+  background-color: #03a7b0;
   color: #fff;
-  border-color: #ce7036;
+  border-color: #03a7b0;
 }
 
 /* Contenido de pestañas */
@@ -99,7 +99,7 @@ html, body {
 
 .tab-panel h2 {
   font-size: 1.8rem;
-  color: #001e4f;
+  color: #03a7b0;
   margin-bottom: 10px;
 }
 
@@ -145,7 +145,7 @@ html, body {
 
 .servicios-page h1 {
   text-align: center;
-  color: #001e4f;
+  color: #1f1b18;
   margin-bottom: 30px;
 }
 
@@ -183,7 +183,7 @@ html, body {
 }
 
 .brochure h2 {
-  color: #001e4f;
+  color: #1f1b18;
   margin-bottom: 20px;
 }
 
@@ -195,7 +195,7 @@ html, body {
 /* Botón de descarga */
 .btn-descargar {
   display: inline-block;
-  background-color: #ce7036;
+  background-color: #03a7b0;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -205,7 +205,7 @@ html, body {
 }
 
 .btn-descargar:hover {
-  background-color: #b85c2d;
+  background-color: #9fa0a2;
 }
 
 /* Responsive Servicios */
@@ -234,7 +234,7 @@ html, body {
 .biografia h1 {
   text-align: center;
   font-size: 2.5rem;
-  color: #001e4f;
+  color: #1f1b18;
   margin-bottom: 20px;
 }
 
@@ -387,7 +387,7 @@ html, body {
 ============================ */
 footer {
   width: 100%;              /* Ocupa todo el ancho */
-  background-color: #014f6f;/* Fondo azul oscuro */
+  background-color: #03a7b0;/* Fondo azul oscuro */
   padding: 40px 0;          /* Espacio vertical */
   color: #fff;
   font-family: Arial, sans-serif;
